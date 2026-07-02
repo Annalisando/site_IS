@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --azul-escuro: #003A8C;
+    --azul-medio:#0062D3;
+    --azul-claro: #4D9DFF;
+}
+
+@font-face {
+    font-family: 'Jockey One';
+    src: url('../fonts/JockeyOne-Regular.ttf') format('truetype');
+}
+
+.bars, .iconLogin{
+    color: var(--azul-medio);
+}
+
+h3{
+    font-family: 'Jockey One', sans-serif;
+}
